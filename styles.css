@@ -1,0 +1,54 @@
+a[href="https://www.google.nl"]:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a[href="https://www.detelegraaf.nl"]:active {
+    color: red;
+    font-style: italic;
+}
+
+a[href="https://www.praxis.nl"]:visited {
+    color: yellow;
+}
+
+input[type="text"]:focus {
+    color: green;
+    width: 20px;
+}
+
+.container {
+    font-family: sans-serif;
+    background-color: darkblue;
+    width: 90%;
+    margin: 40px auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    width: 25%;
+}
+
+nav ul li input {
+    background-color: lightblue;
+}
+
+.currentpage {
+    background-color: rgb(243, 243, 243)
+}
+
+a[href="overons.html"]:hover {
+    color: lightskyblue;
+}
+
+input[type="search"]:focus {
+    border: yellow solid;
+
+}
